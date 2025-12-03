@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Gurukul Greenfield Junior High School</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <img src="assets/images/logo.svg" class="logo" alt="School Logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="academics.html">Academics</a>
+      <a href="admissions.html">Admissions</a>
+      <a href="faculty.html">Faculty</a>
+      <a href="news.html">News</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <h1>Contact Us</h1>
+  <p>Have questions? Send us a message using the form below.</p>
+
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
+
+    <label>
+      Full Name
+      <input type="text" name="name" required>
+    </label>
+
+    <label>
+      Email Address
+      <input type="email" name="email" required>
+    </label>
+
+    <label>
+      Message
+      <textarea name="message" required></textarea>
+    </label>
+
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</main>
+
+<footer class="site-footer container">
+  <p>&copy; <span id="year"></span> Gurukul Greenfield Junior High School</p>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
