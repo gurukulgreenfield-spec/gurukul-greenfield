@@ -1,0 +1,18 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Future build/cache
+dist/
+build/
+.cache/
+
+# Node dependencies (only if used later)
+node_modules/
