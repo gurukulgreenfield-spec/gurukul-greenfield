@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faculty | Gurukul Greenfield Junior High School</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <img src="assets/images/logo.svg" class="logo" alt="School Logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="academics.html">Academics</a>
+      <a href="admissions.html">Admissions</a>
+      <a href="faculty.html" class="active">Faculty</a>
+      <a href="news.html">News</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <h1>Our Faculty</h1>
+  <p>Our dedicated and experienced teachers ensure a nurturing learning environment for each student.</p>
+
+  <div class="faculty-grid">
+
+    <div class="faculty-card">
+      <img src="assets/images/teacher1.jpg" alt="Teacher Photo">
+      <h3>Mrs. Sunita Sharma</h3>
+      <p>Principal & English Teacher</p>
+    </div>
+
+    <div class="faculty-card">
+      <img src="assets/images/teacher2.jpg" alt="Teacher Photo">
+      <h3>Mr. Rajesh Verma</h3>
+      <p>Mathematics Teacher</p>
+    </div>
+
+    <div class="faculty-card">
+      <img src="assets/images/teacher3.jpg" alt="Teacher Photo">
+      <h3>Mrs. Kavita Singh</h3>
+      <p>Science Teacher</p>
+    </div>
+
+    <div class="faculty-card">
+      <img src="assets/images/teacher4.jpg" alt="Teacher Photo">
+      <h3>Mr. Anil Gupta</h3>
+      <p>Social Science Teacher</p>
+    </div>
+
+  </div>
+
+</main>
+
+<footer class="site-footer container">
+  <p>&copy; <span id="year"></span> Gurukul Greenfield Junior High School</p>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
